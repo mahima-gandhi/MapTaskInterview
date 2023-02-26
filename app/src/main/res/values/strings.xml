@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DummyTask</string>
+    <string name="lbl_map">Map</string>
+    <string name="lbl_list">List</string>
+    <string name="lbl_login">Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lbl_turn_on">Please turn on location</string>
+    <string name="txt_ok">Ok</string>
+    <string name="permission_denied">"You need location permission for the app features"</string>
+    <string name="email">Email address</string>
+    <string name="password">Password</string>
+    <string name="signIn">Sign In</string>
+    <string name="lbl_or">OR</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="signUp">Sign Up</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="lbl_privacy">By continuing you accept our <b><u>Privacy Policy</u></b> \nand <b><u>Terms of Use</u></b> </string>
+    <string name="map">Map</string>
+    <string name="list">List</string>
+    <string name="login">Login</string>
+    <string name="lbt_map">Map</string>
+</resources>

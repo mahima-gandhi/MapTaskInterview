@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/_5sdp"
+    android:background="@drawable/bg_outline_grey"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvLat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_4sdp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_14sdp"
+            tools:text="lat 02:26" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvLong"
+        android:padding="@dimen/_4sdp"
+        android:layout_below="@id/tvLat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/_14sdp"
+        tools:text="long 34" />
+
+        <ImageButton
+            android:id="@+id/ivDelete"
+            android:layout_width="wrap_content"
+            android:background="@drawable/bg_circle"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete"/>
+    </RelativeLayout>
+
+</LinearLayout>
+
